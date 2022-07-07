@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html> 
+<head>
+<meta charset=utf-8 />
+<title> Conversion C to F </title>
+
+
+</head>
+<script>
+  const FahrToCel = (temp) => {
+    const a = (temp - 32) / 9;
+    const b = a * 5;
+    return b + " C";
+  };
+  
+  const CelToFahr = (temp) => {
+    const a = (temp * 9) / 5;
+    const b = a + 32;
+    return b + " F";
+  };
+  
+  console.log(CelToFahr(60));
+  console.log(FahrToCel(45));
+  </script>
+  </html>
+  
